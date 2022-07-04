@@ -13,7 +13,7 @@ class Driver:
     
     
     def __call__(self): 
-        driver = webdriver.Chrome(service=Service('./chromedriver 2'), options=self.options) # navigate to chromedriver executable 
+        driver = webdriver.Chrome(service=Service('./chromedriver'), options=self.options) # navigate to chromedriver executable 
         driver.maximize_window()
         return driver
 

@@ -2,7 +2,7 @@ from driver import Driver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
-prefs = {"download.default_directory" : "/Users/graham/Desktop/caiso-data-modeling/scraped-data/daily"} 
+prefs = {"download.default_directory" : "/Users/graham/Desktop/projects/caiso-data-modeling/scraped-data/daily"} 
 #Set your own download directory (absolute paths only)
 
 DRIVER = Driver(prefs=prefs)

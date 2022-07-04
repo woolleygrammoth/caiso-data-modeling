@@ -2,7 +2,6 @@ aiohttp==3.8.1
 aiosignal==1.2.0
 alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
 anaconda-client==1.7.2
-anaconda-navigator==2.1.0
 anaconda-project @ file:///tmp/build/80754af9/anaconda-project_1610472525955/work
 anyio @ file:///opt/concourse/worker/volumes/live/64740ac7-3a9c-4fbb-6685-a51c4ff8b4ca/volume/anyio_1617783319350/work/dist
 appdirs==1.4.4

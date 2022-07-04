@@ -5,8 +5,8 @@ import os
 import time
 import datetime
 
-start = '06/01/2022'
-end = '06/02/2022'
+start = '06/02/2022'
+end = '07/03/2022'
 dates = generate_dates(start, end)
 
 for date in dates: 
