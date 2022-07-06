@@ -6,7 +6,7 @@ import time
 import datetime
 
 start = '06/02/2022'
-end = '07/03/2022'
+end = '06/02/2022'
 dates = generate_dates(start, end)
 
 for date in dates: 
@@ -26,7 +26,6 @@ for date in dates:
         master_df = pd.read_csv('./scraped-data/caiso-net-demand.csv', index_col="Timestamp")
         # concatenate daily csv to master csv 
         master_df = pd.concat([master_df, day_df])
-        # drop duplicates just in case
         # master_df.drop_duplicates(subset='Timestamp', inplace=True)
         # overwrite the master csv
         master_df.to_csv('./scraped-data/caiso-net-demand.csv')
