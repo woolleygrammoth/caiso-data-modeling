@@ -63,7 +63,7 @@ def get_df_old(file:str, path:str='') -> pd.DataFrame:
 def get_df_new(file:str, path:str='')-> pd.DataFrame: 
     if path: 
         file = path + file
-    df = pd.read_csv(file).iloc[:, :-1].transpose()
+    df = pd.read_csv(file).transpose()
     new_header = df.iloc[0]
     df = df[1:]
     df.columns = new_header
